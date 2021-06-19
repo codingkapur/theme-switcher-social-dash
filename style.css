@@ -187,6 +187,7 @@ color: var(--desaturatedBlue);
   width: 40px;
   border-radius: 3rem;
   background: linear-gradient(90deg,hsl(210, 78%, 56%) ,hsl(146, 68%, 55%));
+  cursor: pointer;
 }
 .toggle-ball {
   height: 16px;
@@ -203,7 +204,6 @@ color: var(--desaturatedBlue);
 @media screen and (max-width: 500px) {
   .section-1 {
     flex-direction: column;
-    /* justify-content: space-between; */
   }
   .section-1__toggle-btn {
     justify-content: space-between;
